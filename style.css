@@ -1,0 +1,133 @@
+body{
+    background-color:grey
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    background-color:grey;
+    height:80vh;
+
+    
+}
+
+header{
+    display:flex;
+    flex-direction:row;
+    background-color:rgb(14, 1, 47);  
+    color:white;
+    height:10vh;
+    /* border : 3px solid red; */
+    justify-content: center;
+    align-items: center;
+   
+    
+    
+   
+}
+header>h1{
+    /* border: 4px solid yellow; */
+    display: flex;
+    height: 10vh;
+    width:90%;
+    justify-content:center;
+    align-items:center;
+   
+
+}
+header>img{
+    display:flex;
+    width:10%;
+    background-color:rgb(14, 1, 47);  
+    height:10vh;
+    /* border : 3px solid white;; */
+    
+
+}
+
+
+.main-container{
+    display: flex;
+    flex-direction: row;;
+    /* border: 1px solid black; */
+    background-color:grey;
+    height:80vh;
+
+    
+}
+.sidebar{
+    height:65vh;
+    background-color: black;
+    /* border:3px solid white; */
+    width:25%;
+    border-radius:30px;
+    margin:50px 100px 50px 50px;
+
+}
+
+.main{
+    display:flex;
+    flex-direction:column;
+    /* background-color:rgb(59, 56, 56); */
+    /* border:1px solid black; */
+    display:flex;
+    width:75%;
+    row-gap:40px;
+
+}
+
+.search{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    /* border:4px solid red; */
+    width:99%;
+    height:20vh
+}
+
+.search>form{
+    display:flex;
+    /* border:4px solid white; */
+    justify-content: center;
+    align-items: center;
+    width:70%;
+
+}
+
+.gsearch{
+    display:block;
+    height:5vh;
+    width:100%;
+    color:white;
+    background-color: black;
+
+}
+
+.card{
+    display:flex;
+    flex-direction:row;
+    /* border: 1px solid white; */
+    height:15vh;
+    column-gap: 20px;
+}
+
+.sec{
+    /* border: 1px solid white; */
+    width:30%;
+    background-color: black;
+    /* color:white; */
+    border-radius:10px;
+    
+}
+
+.rect{
+    /* border: 1px solid rgb(128, 19, 19); */
+    height:20vh;
+    background-color:black;
+    border-radius:10px;
+    margin-right:10px;
+
+}
+
